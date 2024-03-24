@@ -1,0 +1,143 @@
+import React from "react"
+export const Diamonds = (props:{className:string}) => {
+    return(
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   className={props.className}
+   // width="240"
+   // height="260"
+   id="svg2"
+   version="1.0"
+   >
+  <defs
+     id="defs4" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Livello 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-288.15635,-348.0625)">
+    <path
+       id="path3200"
+       d="M 408.15635,352.45099 C 385.76859,400.21284 352.76072,442.26342 308.15635,478.0625 C 352.76072,513.86156 385.76859,555.91215 408.15635,603.674 C 430.54411,555.91215 463.55198,513.86156 508.15635,478.0625 C 463.55198,442.26342 430.54411,400.21284 408.15635,352.45099 z"
+       // className= {props.className}
+
+       />
+  </g>
+</svg>
+          )
+
+}
+
+export const Clubs = (props:{className:string}) => {
+    return(
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="240"
+   height="260"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   version="1.0"
+   sodipodi:docbase="C:\Documents and Settings\Flanker\Desktop\Temporanei\SVG\Piacentine SVG"
+   sodipodi:docname="SuitClubs.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="184.52216"
+     inkscape:cy="135.80548"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:showpageshadow="false"
+     width="240px"
+     height="260px"
+     inkscape:window-width="1280"
+     inkscape:window-height="885"
+     inkscape:window-x="22"
+     inkscape:window-y="0"
+     showgrid="false" />
+  <g
+     inkscape:label="Livello 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-288.15635,-348.0625)">
+    <path
+      className = {props.className}
+       d="M 408.15639,368.79905 C 379.39014,368.79906 356.02769,392.16149 356.02769,420.92775 C 356.02772,441.41782 367.85955,459.15021 385.07688,467.65086 C 390.25818,470.20901 384.60395,476.8313 380.79941,472.53939 C 371.24485,461.76088 357.31062,454.95947 341.78513,454.95947 C 313.01888,454.95946 289.65635,478.32191 289.65635,507.08817 C 289.65635,535.85443 313.01903,559.16987 341.78513,559.16987 C 370.33092,559.16987 393.61306,536.20881 393.91384,507.74624 C 393.96721,502.69704 401.7167,502.17398 401.7167,508.96838 C 401.7167,519.66771 391.43054,576.49172 385.92297,587.32595 C 391.9345,585.8101 401.95338,584.55266 408.15639,584.55265 C 414.35941,584.55266 424.37829,585.8101 430.38982,587.32595 C 424.88225,576.49172 414.59609,519.66771 414.59609,508.96838 C 414.59609,502.17398 422.34558,502.69704 422.39895,507.74624 C 422.69973,536.20881 445.98193,559.16987 474.52765,559.16987 C 503.29392,559.16987 526.65632,535.85443 526.65635,507.08817 C 526.65635,478.32191 503.29392,454.95946 474.52765,454.95947 C 459.00226,454.95947 445.06794,461.76088 435.51338,472.53939 C 431.70884,476.8313 426.05461,470.20901 431.23591,467.65086 C 448.45324,459.15021 460.28507,441.41782 460.28509,420.92775 C 460.28509,392.16149 436.92265,368.79906 408.15639,368.79905 z"
+       id="path3211" />
+  </g>
+</svg>
+          )
+
+}
+
+
+export const Hearts = (props:{className:string}) => {
+    return (
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" className = {props.className} >
+<g><path className={props.className}  d="M 162.5,70.5 C 228.179,68.1031 278.013,94.7697 312,150.5C 316.412,159.657 321.078,168.657 326,177.5C 345.792,128.706 380.292,95.206 429.5,77C 475.523,64.2275 518.856,70.2275 559.5,95C 611.823,135.05 628.323,186.883 609,250.5C 600.154,278.523 587.82,304.856 572,329.5C 562.491,343.852 552.491,357.852 542,371.5C 504.095,416.982 466.428,462.649 429,508.5C 399.325,547.148 373.659,588.482 352,632.5C 344.103,651.526 336.603,670.692 329.5,690C 326.901,690.769 324.401,690.602 322,689.5C 307.406,639.991 285.739,593.991 257,551.5C 238.157,523.655 218.157,496.655 197,470.5C 159.575,425.746 122.908,380.412 87,334.5C 67.0305,308.232 52.0305,279.232 42,247.5C 26.6387,194.582 37.8054,148.415 75.5,109C 100.161,86.3355 129.161,73.5022 162.5,70.5 Z"/></g>
+</svg>
+
+
+           )
+}
+
+export const Spades = (props:{className:string}) => {
+
+    return (
+
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+className= {props.className}
+ // width="1137.000000pt" height="1280.000000pt" viewBox="0 0 1137.000000 1280.000000"
+ preserveAspectRatio="xMidYMid meet">
+<g className = {props.className} transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)"
+fill="#000000" stroke="none">
+<path className= {props.className} d="M5627 12712 c-315 -496 -846 -1081 -1469 -1618 -336 -290 -572 -477
+-1253 -994 -481 -365 -783 -597 -945 -729 -1167 -948 -1699 -1689 -1870 -2604
+-175 -934 -88 -1745 250 -2333 107 -186 181 -284 330 -437 486 -502 1192 -767
+2115 -793 682 -20 1270 122 1723 416 252 163 499 410 662 661 l42 64 -7 -100
+c-26 -416 -91 -1059 -140 -1383 -200 -1321 -628 -2032 -1497 -2486 -256 -134
+-533 -236 -903 -331 l-170 -44 3185 0 3185 0 -185 49 c-345 91 -577 175 -840
+307 -536 267 -911 642 -1160 1158 -247 514 -387 1169 -480 2245 -31 362 -47
+575 -44 578 1 2 27 -34 57 -80 305 -460 762 -781 1342 -944 124 -35 303 -69
+475 -91 199 -24 698 -24 915 1 760 88 1302 313 1718 715 630 609 838 1543 622
+2790 -162 927 -690 1674 -1860 2627 -174 142 -441 348 -933 721 -890 676
+-1206 933 -1653 1349 -422 393 -837 879 -1099 1286 l-57 89 -56 -89z"/>
+</g>
+</svg>
+
+
+           )
+
+}
